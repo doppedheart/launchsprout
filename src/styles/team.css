@@ -1,0 +1,40 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2.5% 5%;
+}
+
+.team h1{
+    color:var(--clr-primary-1)
+}
+.team p{
+    font-size: 1.5rem;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-members div{
+    width: 20%;
+
+}
+
+.team-members img{
+    width:100%;
+}
+
+@media (max-width:775px) {
+    .team{
+        margin:2.5% 10%;
+    }
+    .team-members div{
+        width:45%
+    }
+    .team p{
+        font-size: 1rem;
+    }
+}
