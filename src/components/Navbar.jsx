@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/react.svg'
+import logo from '../assets/logo-lauchsprout.png'
 import {FaBars} from 'react-icons/fa'
 import { useServicesContext } from '../context/services'
 import '../styles/navbar.css'
@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar' >
         <div className='nav-center'>
             <Link to='/'>
-                <img src={logo} alt='launchsprout' />
+                <img src={logo} className="logo" alt='launchsprout' />
                 <h3>LaunchSprout</h3>
             </Link>
             <button className='nav-toggle' onClick={openSidebar}>
@@ -18,10 +18,10 @@ const Navbar = () => {
             </button>
         </div>
         <ul className='nav-links'>
-            <li className='nav-lists'><a>Home</a></li>
-            <li className='nav-lists'><a>About Us</a></li>
-            <li className='nav-lists'><a>Services</a></li>
-            <li className='nav-lists'><a>Support</a></li>
+            <li className='nav-lists'><a href="#hero">Home</a></li>
+            <li className='nav-lists'><a href="#team">About Us</a></li>
+            <li className='nav-lists'><a href="#services">Services</a></li>
+            <li className='nav-lists'><a href="#features">Support</a></li>
         </ul>
         <button className='nav-btn'>SignUp</button>
     </div>

@@ -12,9 +12,10 @@ const Faq = () => {
         <div className="semi-circle"></div>
       </div>
       <div className="info">
-        <h3>Why choose us?</h3>
-        <h2>We understand your needs and tailor our product based on that.</h2>
-        <p>Each member of our team is higly dedicated in making the bet product for you and your customers. we take extra careb in making it Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi, aut a quae quod exercitationem enim. Minus, placeat reprehenderit. Dolorum?</p>
+        <h2><span>Why choose us?</span><br />
+        We understand your needs and tailor our product based on that.</h2>
+        <p>At LaunchSprout, we firmly believe in understanding your needs and customizing our products to cater to them.
+We recognize that every business and individual has distinct requirements and goals. That's why we are dedicated to tailoring our solutions to suit your specific needs, enabling you to achieve your desired outcomes.Our team of professionals is committed to listening attentively, analyzing thoroughly, and collaborating closely with you.</p>
       </div>
     </div>
   )

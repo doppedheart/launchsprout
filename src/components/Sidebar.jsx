@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/react.svg'
+import logo from '../assets/logo-lauchsprout.png'
 import { FaTimes } from 'react-icons/fa'
 import styled from 'styled-components'
 import { useServicesContext } from '../context/services'
@@ -9,14 +9,14 @@ const Sidebar = () => {
   return <SidebarContainer>
     <aside className={`${isSidebarOpen?'show-sidebar sidebar':'sidebar'}`}>
       <div className="sidebar-header">
-        <img src={logo} alt='comfy' />
+        <img src={logo} alt='logo-launchsprout' className='logo-sidebar' />
         <button className='close-btn' onClick={closeSidebar} ><FaTimes/></button>
       </div>
       <ul className='links'>
-        <li><a>about</a></li>
-        <li><a>about</a></li>
-        <li><a>about</a></li>
-        <li><a>about</a></li>
+        <li><a href="#hero" onClick={closeSidebar}>home</a></li>
+        <li><a href="#team" onClick={closeSidebar}>about us</a></li>
+        <li><a href="#services" onClick={closeSidebar}>services</a></li>
+        <li><a href="#features" onClick={closeSidebar}>features</a></li>
     </ul>
     </aside>
   </SidebarContainer>

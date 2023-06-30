@@ -26,10 +26,16 @@
 .team-members img{
     width:100%;
 }
-
+.team-img{
+    border-radius: 5%;
+    margin: 2.5% 0;
+}
 @media (max-width:775px) {
     .team{
         margin:2.5% 10%;
+    }
+    .team h1{
+        font-size: 1.75rem;
     }
     .team-members div{
         width:45%

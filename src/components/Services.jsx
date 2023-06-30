@@ -7,7 +7,7 @@ import Img4 from '../assets/services4.svg'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id="services">
         <h1>Our Services</h1>
         <p>We offer the best quality services and at the best price.</p>
       <div className="sub-heading">

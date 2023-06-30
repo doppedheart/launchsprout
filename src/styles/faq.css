@@ -35,7 +35,7 @@
 .info{
     width: 50%;
 }
-.info h3{
+.info span{
     color: var(--clr-primary-1);
     font-weight: 700;
     margin-bottom: 4%;
@@ -48,6 +48,12 @@
 @media (max-width:775px){
     .img-container{
         display: none;
+    }
+    .info h2{
+        font-size: 1.75rem;
+    }
+    .info p{
+        font-size: 1.25rem;
     }
     .info{
         width: 100%;

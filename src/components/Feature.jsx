@@ -5,7 +5,7 @@ import Img3 from '../assets/feature3.svg'
 import '../styles/features.css'
 const Feature = () => {
   return (
-    <div className='feature'>
+    <div className='feature' id='features'>
       <article className='container-feature'> 
         <div>
           <h4>24*7 Hour Support</h4>

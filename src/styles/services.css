@@ -72,11 +72,17 @@
 }
 
 @media(max-width:775px){
+    .services h1{
+        font-size: 1.75rem;
+    }
+    .services{
+        margin: 5% 10%;
+    }
     .services h2{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .services p{
-        font-size: 1rem;
+        font-size: .9rem;
         margin:0 5%;
     }
     .view-btn{

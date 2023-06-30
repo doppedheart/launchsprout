@@ -38,6 +38,9 @@
     .inner-cont img{
         width: 100%;
     }
+    .work h2{
+        font-size: 1.75rem;
+    }
     .work p{
         font-size: 1rem;
     }
